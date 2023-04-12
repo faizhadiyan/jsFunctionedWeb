@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="modal.css">
+  <title>Portfolio 1 HTML CSS</title>
+</head>
+<body>
+  <header>
+    <div class="logo">Ninja Ken</div>
+    <nav>
+      <ul>
+        <li>Tentang saya</li>
+        <li>Proyek saya</li>
+        <li>Hubungi saya</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Ninja Ken<span>.</span></h1>
+      <h2>MY PORTFOLIO</h2>
+      <img src="https://github.com/faizhadiyan/progateLatihan1/blob/9ca5fdec7b0c76341c52f3a14bf6e4ee24f66b3f/Ninja%20Ken.png?raw=true" alt="Ninja Ken">
+    </section>
+    <div class="about">
+      <h3>Tentang Saya</h3>
+      <div class="bungkusp">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt dolore consectetur vel quibusdam, eaque velit quaerat! Illo eos aliquid iure, nihil sint, aspernatur quo veniam, aliquam suscipit rem libero ea! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus rem, quam magni ex blanditiis atque placeat asperiores aliquam quos totam modi ratione accusamus ipsum natus rerum alias reprehenderit ut id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat inventore eos, perferendis quaerat tenetur quibusdam cupiditate provident maxime in, ullam porro dicta? Nemo saepe corrupti natus inventore repellat nisi repudiandae.</p>
+      </div>
+    </div>
+    <div class="contohproyek">
+      <h3>Proyek Contoh</h3>
+
+      <div class="image">
+        <div class="image1 fade">
+          <img id="x" src="1.png" alt="image1">
+          <p>Image 1</p>
+        </div>
+
+        <div class="image1 fade">
+          <img id="x" src="2.png" alt="image2">
+          <p>Image 2</p>
+        </div>
+        
+        <div class="image1 fade">
+          <img id="x" src="3.png" alt="image3">
+          <p>Image 3</p>
+        </div>    
+        
+        <a class="prev" onclick="updateSlide(-1)">&#10094;</a>
+        <a class="next" onclick="updateSlide(1)">&#10095;</a>
+
+      </div>
+    </div>
+    <div class="contactform">
+      <h3>Hubungi Saya</h3>
+      <div class="emailform">
+        <input style="border-radius: 10px" type="email" placeholder="  Email(Diperlukan)">
+      </div>
+      <div class="messageform">
+        <textarea style="border-radius: 10px" placeholder="Message (Diperlukan)" data-dl-input-translation="true" spellcheck="false"></textarea>
+      </div>
+      <input class="buttonkirim" type="submit" value="Kirim">
+    </div>
+  </main>
+  <footer>
+    <div class="logobawah">Ninja Ken</div>
+    <nav>
+      <ul>
+        <li>Tentang saya</li>
+        <li>Proyek saya</li>
+        <li>Hubungi saya</li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="./js/modal.js"></script>
+</body>
+</html>
