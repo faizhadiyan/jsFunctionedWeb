@@ -85,16 +85,17 @@ main .about {
   width: 100%;
   text-align: center;
   background-color: rgb(233, 232, 232);
-  margin-top: 250px;
+  margin-top: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 main .about h3 {
-  margin-top:20px;
-  font-size:24px;
-  font-weight: bold;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
 }
 
 main .about .bungkusp p{
@@ -109,9 +110,9 @@ main .about .bungkusp p{
 }
 
 .contohproyek h3{
+  font-size: 24px;
+  font-weight: 800;
   text-align: center;
-  font-size:24px;
-  font-weight: bold;
 }
 
 .contohproyek .image {
@@ -183,6 +184,13 @@ main .about .bungkusp p{
   margin-top: 20px;
 }
 
+.faq-title{
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+}
+
 footer {
   display: flex;
   flex-direction: row;
@@ -212,3 +220,4 @@ footer nav ul li {
   padding-top: 10px;
   font-size: 20px;
 }
+
